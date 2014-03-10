@@ -1,16 +1,11 @@
 USE [master]
 GO
 
-/****** Object:  Database [TicketAllocator]    Script Date: 03/09/2014 12:36:55 ******/
 IF  EXISTS (SELECT name FROM sys.databases WHERE name = N'TicketAllocator')
 DROP DATABASE [TicketAllocator]
 GO
 
-/****** Object:  Database [TicketAllocator]    Script Date: 03/09/2014 12:36:55 ******/
-CREATE DATABASE [TicketAllocator] ON  PRIMARY 
-( NAME = N'TicketAllocator', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL10_50.SQL2008\MSSQL\DATA\TicketAllocator.mdf' , SIZE = 3072KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
- LOG ON 
-( NAME = N'TicketAllocator_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL10_50.SQL2008\MSSQL\DATA\TicketAllocator_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
+CREATE DATABASE [TicketAllocator]
 GO
 
 ALTER DATABASE [TicketAllocator] SET COMPATIBILITY_LEVEL = 100
@@ -94,7 +89,7 @@ GO
 ALTER DATABASE [TicketAllocator] SET  READ_WRITE 
 GO
 
-ALTER DATABASE [TicketAllocator] SET RECOVERY FULL 
+ALTER DATABASE [TicketAllocator] SET RECOVERY SIMPLE 
 GO
 
 ALTER DATABASE [TicketAllocator] SET  MULTI_USER 
@@ -105,5 +100,3 @@ GO
 
 ALTER DATABASE [TicketAllocator] SET DB_CHAINING OFF 
 GO
-
-
