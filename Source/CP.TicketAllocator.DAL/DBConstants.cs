@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CP.TicketAllocator.DAL
 {
-    internal class DBObjects
+    public class DBObjects
     {
         public const string GetCinemas = "dbo.uspGetCinemas";
         public const string GetMovies = "dbo.uspGetMovies";
@@ -18,5 +18,12 @@ namespace CP.TicketAllocator.DAL
     {
         public Type Type;
         public object Value;
+    }
+
+    internal class Configuration
+    {
+        //public const string TicketAllocatorConnection = "TicketAllocator.ConnectionString";
+        public const string DataProvider = "DataProvider";
+        public const string ConnectionStringName = "ConnectionStringName";
     }
 }

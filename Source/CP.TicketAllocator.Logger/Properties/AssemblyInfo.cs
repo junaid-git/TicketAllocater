@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CP.TicketAllocator.DataClassManager")]
+[assembly: AssemblyTitle("CP.TicketAllocator.Logger")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CP.TicketAllocator.DataClassManager")]
+[assembly: AssemblyProduct("CP.TicketAllocator.Logger")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("30bbc192-e92a-440f-8efa-98112e334e78")]
+[assembly: Guid("4cb9f9e4-8907-4b29-bca9-d248c4a60a18")]
 
 // Version information for an assembly consists of the following four values:
 //
