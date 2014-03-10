@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.TicketAllocator.Service", "CP.TicketAllocator.Service\CP.TicketAllocator.Service.csproj", "{3A4A119E-ADF2-46D0-9D4D-F02ACAD7585E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.TicketAllocator.DAL", "CP.TicketAllocator.DAL\CP.TicketAllocator.DAL.csproj", "{CE97627A-370D-406F-AC79-90D9B99888B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.Tests.DALTest", "CP.Tests.DBGateway\CP.Tests.DALTest.csproj", "{82DB22AD-095F-4317-86C8-18CAE9C0D740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A4A119E-ADF2-46D0-9D4D-F02ACAD7585E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4A119E-ADF2-46D0-9D4D-F02ACAD7585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4A119E-ADF2-46D0-9D4D-F02ACAD7585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4A119E-ADF2-46D0-9D4D-F02ACAD7585E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE97627A-370D-406F-AC79-90D9B99888B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE97627A-370D-406F-AC79-90D9B99888B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE97627A-370D-406F-AC79-90D9B99888B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE97627A-370D-406F-AC79-90D9B99888B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
