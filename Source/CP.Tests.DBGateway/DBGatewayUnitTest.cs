@@ -7,7 +7,7 @@ using System.Data;
 using CP.TicketAllocator.DAL;
 using CP.TicketAllocator.Model;
 
-namespace CP.Tests.DBGatewayTest
+namespace CP.Tests.DALTest
 {
     [TestClass]
     public class DBGatewayUnitTest

@@ -12,7 +12,7 @@ AS
 BEGIN	
 	SET NOCOUNT ON;
 	    
-	SELECT MST.MovieShowTimeID, ST.ShowTime, ST.[Description]
+	SELECT MST.MovieShowTimeID as 'ShowTimeID', ST.ShowTime, ST.[Description]
 	FROM dbo.MovieShowTime MST WITH(NOLOCK)
 	INNER JOIN dbo.ShowTimes ST WITH(NOLOCK) on MST.ShowTimeID = ST.ShowTimeID	
 	WHERE MST.MovieID = @MovieID

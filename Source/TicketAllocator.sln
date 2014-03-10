@@ -5,13 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.TicketAllocator.View", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.TicketAllocator.CustomControls", "CP.TicketAllocator.CustomControls\CP.TicketAllocator.CustomControls.csproj", "{07598188-ACC3-4637-A433-E0EAD7EE2707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.TicketAllocator.DAL", "CP.TicketAllocator.DAL\CP.TicketAllocator.DAL.csproj", "{CE97627A-370D-406F-AC79-90D9B99888B4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.TicketAllocator.ViewModel", "CP.TicketAllocator.ViewModel\CP.TicketAllocator.ViewModel.csproj", "{821E1979-237C-477A-A201-D91D18004036}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.TicketAllocator.Logger", "CP.TicketAllocator.Logger\CP.TicketAllocator.Logger.csproj", "{9D543D3E-3D74-4816-9DF8-C3E9171349FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.Tests.DBGatewayTest", "CP.Tests.DBGateway\CP.Tests.DBGatewayTest.csproj", "{82DB22AD-095F-4317-86C8-18CAE9C0D740}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{32D0DC1C-BE44-4322-B46C-107985E3E24B}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,8 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TicketAllocator.vsmdi = TicketAllocator.vsmdi
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CP.TicketAllocator.Model", "CP.TicketAllocator.Model\CP.TicketAllocator.Model.csproj", "{D95A68E1-2672-454B-B05C-2CAD6E210763}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -55,16 +49,6 @@ Global
 		{07598188-ACC3-4637-A433-E0EAD7EE2707}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{07598188-ACC3-4637-A433-E0EAD7EE2707}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{07598188-ACC3-4637-A433-E0EAD7EE2707}.Release|x86.ActiveCfg = Release|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{CE97627A-370D-406F-AC79-90D9B99888B4}.Release|x86.ActiveCfg = Release|Any CPU
 		{821E1979-237C-477A-A201-D91D18004036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{821E1979-237C-477A-A201-D91D18004036}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{821E1979-237C-477A-A201-D91D18004036}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -85,26 +69,6 @@ Global
 		{9D543D3E-3D74-4816-9DF8-C3E9171349FC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{9D543D3E-3D74-4816-9DF8-C3E9171349FC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{9D543D3E-3D74-4816-9DF8-C3E9171349FC}.Release|x86.ActiveCfg = Release|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{82DB22AD-095F-4317-86C8-18CAE9C0D740}.Release|x86.ActiveCfg = Release|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{D95A68E1-2672-454B-B05C-2CAD6E210763}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

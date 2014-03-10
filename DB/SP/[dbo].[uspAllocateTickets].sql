@@ -7,7 +7,7 @@ CREATE PROCEDURE [dbo].[uspAllocateTickets]
 (
 	@MovieShowTimeID int,	
 	@SelectedDate DateTime,
-	@Seats int,
+	@Seats smallint,
 	@ErrorNo int Output,
 	@ErrorMessage NVarchar(MAX) Output
 )
